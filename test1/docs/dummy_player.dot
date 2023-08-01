@@ -1,0 +1,9 @@
+digraph G {
+    node [shape=box];
+
+    "Kyrie Irving" -> "Brooklyn Nets" [label="currentTeam"];
+    "Kyrie Irving" -> "1.88" [label="hasHeight"];
+    "Kyrie Irving" -> "81.6" [label="hasWeight"];
+    "Kyrie Irving" -> "$31,742,000" [label="has yearSalaryOf"];
+    "Kyrie Irving" -> "Australia" [label="from"];
+}
