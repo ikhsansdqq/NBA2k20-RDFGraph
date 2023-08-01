@@ -1,9 +1,22 @@
 digraph G {
     node [shape=box];
 
-    "Kyrie Irving" -> "Brooklyn Nets" [label="currentTeam"];
-    "Kyrie Irving" -> "1.88" [label="hasHeight"];
-    "Kyrie Irving" -> "81.6" [label="hasWeight"];
-    "Kyrie Irving" -> "$31,742,000" [label="has yearSalaryOf"];
-    "Kyrie Irving" -> "Australia" [label="from"];
+    "Daniel Theis" -> "Boston Celtics" [label="currentTeam"];
+    "Daniel Theis" -> "2.03" [label="hasHeight"];
+    "Daniel Theis" -> "97.5" [label="hasWeight"];
+    "Daniel Theis" -> "$5,000,000" [label="has yearSalaryOf"];
+    "Daniel Theis" -> "Germany" [label="from"];
+
+    "Darius Garland" -> "Cleveland Cavaliers" [label="currentTeam"];
+    "Darius Garland" -> "1.85" [label="hasHeight"];
+    "Darius Garland" -> "79.4" [label="hasWeight"];
+    "Darius Garland" -> "$6,400,920" [label="has yearSalaryOf"];
+    "Darius Garland" -> "USA" [label="from"];
+
+    "Hamidou Diallo" -> "Oklahoma City Thunder" [label="currentTeam"];
+    "Hamidou Diallo" -> "1.96" [label="hasHeight"];
+    "Hamidou Diallo" -> "89.8" [label="hasWeight"];
+    "Hamidou Diallo" -> "$1,416,852" [label="has yearSalaryOf"];
+    "Hamidou Diallo" -> "USA" [label="from"];
+
 }
